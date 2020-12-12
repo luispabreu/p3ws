@@ -1,11 +1,24 @@
 def listMax(list):
-    pass
+    if list == None:
+        return None
+    if list == []:
+        return None
+    max = list[0]
+    for i in list:
+        if max < i:
+            max = i
+            pass
+        pass
+    return max
+    
 
 def doTest(list):
     print('listMax(',end='')
     if list == None:
         print('None) is ',end='')
         pass
+    
+
     else:
         n = len(list)
         print('[',end='')
