@@ -6,7 +6,7 @@ def calculateRetirement(start_age, initial, working, retired):
         pass
     for j in range(retired[0]):
         print('Age {:3d} month {:2d} you have ${:.2f}'.format(start_age//12, start_age % 12, initial))
-        initial = initial + (initial * working[2]) + working[1]
+        initial = initial + (initial * retired[2]) + retired[1]
         start_age += 1
         pass
     return 0
@@ -19,7 +19,9 @@ def main():
     calculateRetirement(age,savings,working,retired)
     return 0
 
-main()
+if __name__ == "__main__":
+    main()
+    pass
 
        
              
