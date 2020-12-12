@@ -37,7 +37,8 @@ inflation."
 
     At the start of each month (before the balance changes), you should
     print out the current balance with the following format:
-      'Age {:3d} month {:2d} you have ${:.2f}'
+      'Age {:3d} month {:2d} you have ${:.2f}
+'
     The first two format conversions are the savers age in years and
     months. The third format conversion is the account balance This
     calculation goes on for the number of months specified in the "working"
