@@ -1,0 +1,41 @@
+aaaaa bbbbb
+a bbbbb
+aa bbbbb
+aaa bbbbb
+aaaa bbbbb
+aaaaa b
+aaaaa bb
+aaaaa bbb
+aaaaa bbbb
+aaaaa
+aaaaaa bbbbb
+aaaaa bbbbbb
+Aaaaa bbbbb
+aaaaa Bbbbb
+aabbb abccc
+abccc aabbb
+cccab aabbb
+caaac ccaaa
+caaac aaacc
+ccaaa caaac
+cccaa caacc
+aaaaa aaaac
+aaaac aaaaa
+aaavv vvvva
+aaaav vvvaa
+11111 11111
+1111a 11111
+11111 a1111
+$$$$$ aaaaa
+aaaaa $$$$$
+00000 -10000
+abcde abbbb
+abcde abccc
+abcde abcdd
+abcde abcde
+abcde aaaaa
+abbbb abcde
+bbbba abcde
+
+
+
