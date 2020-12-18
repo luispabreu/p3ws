@@ -36,10 +36,10 @@ class Circle:
             pass
         else:
             d1 = (self.r**2 - other_circle.r**2 + distance**2) / (2 * distance)
-            d2 = distance - d1
-            a = self.r**2 + math.acos(d1 / self.r)
-            b = other_circle.r**2 * math.acos(d2 / other_circle.r)
-            c = d1 * math.sqrt(self.r**2 - d1**2)
+            d2 = math.sqrt(self.r**2 - d1**2)
+            a = self.r**2 + math.asin(d2 / self.r)
+            b = other_circle.r**2 * math.asin(d2 / other_circle.r)
+            c = d1 * math.sqrt(self.r**2 - d2**2)
             d = d2 * math.sqrt(other_circle.r**2 - d2**2)
             return a + b - c - d
         pass
