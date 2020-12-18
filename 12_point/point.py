@@ -9,7 +9,7 @@ class Point:
         pass
 
     def __str__(self):
-        return '(' + str(self.x) + ', ' + str(self.x) + ')'
+        return '(' + str(self.x) + ', ' + str(self.y) + ')'
 
     def __repr__(self):
         return 'Point' + self.__str__()
@@ -35,7 +35,7 @@ def main():
     print(point.distance_from(Point(40,3)))    
     return 0
 
-if __name__=="__main__":
+if __name__== "__main__":
     main()
 
     
