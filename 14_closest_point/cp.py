@@ -5,6 +5,7 @@ from point import Point
 def closestPoint(s,p):
     # If S has 0 point in it, give an answer of "no answer exists"
     assert len(s) > 0
+    
     first = 1
     
     for i in s:
@@ -19,7 +20,7 @@ def closestPoint(s,p):
             pass
         else:
             # If current distance is smaller than bestDistance
-            if currentDistance > bestDistance:
+            if currentDistance < bestDistance:
                 # Update bestChoice to Si and bestDistance to currentDistance
                 bestDistance == currentDistance
                 bestChoice == i
