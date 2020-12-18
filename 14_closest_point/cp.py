@@ -27,4 +27,5 @@ def closestPoint(s,p):
                 pass
             pass
         # Give anser of bestChoice
-        return bestDistance
+        return bestChoice
+    
