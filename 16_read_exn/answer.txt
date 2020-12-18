@@ -1,7 +1,7 @@
 i=1 j = 2
 5
 i= hello j = 4
-x must be an int in g(c,y)
+x must be an int in g(x,y)
 i= 3 j = 10
 f(7) is illegal
 42
