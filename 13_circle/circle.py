@@ -35,8 +35,6 @@ class Circle:
                 return math.pi * (self.r**2)
             pass
         else:
-            d1 = (self.r**2 - other_circle.r**2 + distance**2) / (2 * distance)
-            d2 = distance - d1
             a = self.r**2 * math.acos((distance**2 + self.r**2 - other_circle.r**2) / (2 * distance * self.r))
             b = other_circle.r**2 * math.acos((distance**2 + other_circle.r**2 - self.r**2) / (2 * distance * other_circle.r))
             c = .5 * math.sqrt((- distance + self.r + other_circle.r)*(distance + self.r - other_circle.r)*(distance + self.r + other_circle.r))
