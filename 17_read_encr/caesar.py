@@ -1,3 +1,4 @@
+
 # do not ever try to encrypt data this way for
 # real! This is easily broken
 def caesarCipher(fname, key):
