@@ -23,7 +23,9 @@ def printResults(counts):
     # You will replace this code in Step 3 and 4
     newlist = [(str(x) + " : " + str(y)) for x, y in counts.items()]
     newlist.sort()
-    print(newlist)
+    for i in newlist:
+        print(i)
+    pass
     
 
 
