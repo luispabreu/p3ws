@@ -22,8 +22,8 @@ def closestPoint(s,p):
             # If current distance is smaller than bestDistance
             if currentDistance < bestDistance:
                 # Update bestChoice to Si and bestDistance to currentDistance
-                bestDistance == currentDistance
-                bestChoice == i
+                bestDistance = currentDistance
+                bestChoice = i
                 pass
             pass
         # Give anser of bestChoice
