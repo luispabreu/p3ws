@@ -1,8 +1,8 @@
-Grading at 12/18/2020:05:17:46.282919
-For commit ID bbbcee7cd12b49c1326c88ae0d48230010168960
+Grading at 12/18/2020:05:25:46.554325
+For commit ID 89dd2744abf3140135efe12f0fdd8387fc63a92c
 c1 intersects c2: 1.57079633		      |	c1 intersects c2: 0.57079633
-c1 intersects c2: 2.40306644		      |	c1 intersects c2: 2.39254987
-c1 intersects c2: 1.60067025		      |	c1 intersects c2: 0.16155660
+c1 intersects c2: 3.55669426		      |	c1 intersects c2: 2.39254987
+c1 intersects c2: 27.61317170		      |	c1 intersects c2: 0.16155660
 Your file did not match the expected output
 
 Overall Grade: FAILED
