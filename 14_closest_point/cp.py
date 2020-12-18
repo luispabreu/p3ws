@@ -15,6 +15,7 @@ def closestPoint(s,p):
             # Start with the best choice of So
             bestChoice = i
             bestDistance = currentDistance
+            first = 0
             pass
         else:
             # If current distance is smaller than bestDistance
