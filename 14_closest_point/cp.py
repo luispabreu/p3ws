@@ -19,10 +19,8 @@ def closestPoint(s,p):
             first = 0
             pass
         else:
-            print ("Iterating" + str(i))
             # If current distance is smaller than bestDistance
             if currentDistance <= bestDistance:
-                print ("Found better distance")
                 # Update bestChoice to Si and bestDistance to currentDistance
                 bestDistance = currentDistance
                 bestChoice = i
