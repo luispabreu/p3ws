@@ -6,7 +6,7 @@ from point import Point
 class Circle:
     """This is a class of circles"""
 
-    def __init__(self, c=None, r=0):
+    def __init__(self, c=None, r=1):
         if (c is None):
             self.c = Point(0,0)
         else:
