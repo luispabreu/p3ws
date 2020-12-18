@@ -1,25 +1,7 @@
-Grading at 12/18/2020:05:11:26.011602
-For commit ID e0a7c73fa062fac83e56b088cc9b775cd427658d
-c1: ((0, 0), 0)				      |	c1: ((0, 0), 1)
-c1: Circle((0, 0), 0)			      |	c1: Circle((0, 0), 1)
-c1: ((3, 4), 0)				      |	c1: ((3, 4), 1)
-c2: ((3, 4), 0)				      |	c2: ((3, 4), 1)
-					      >	c1 intersects c2: 3.14159265
-					      >	c1: ((-1, 0), 1)
-					      >	c2: ((0, 1), 1)
-					      >	c1 intersects c2: 0.57079633
-					      >	c1: ((0, -1), 1)
-					      >	c2: ((0, 1), 1)
-c1: ((-1, 0), 0)			      |	c1: ((0, -1.5), 1)
-c2: ((0, 1), 0)				      |	c2: ((0, 1), 1)
-c1: ((0, -1), 0)			      |	c1: ((0, 1), 1)
-c2: ((0, 1), 0)				      <
-c1 intersects c2: 0.00000000		      <
-c1: ((0, -1.5), 0)			      <
-c2: ((0, 1), 0)				      <
-c1 intersects c2: 0.00000000		      <
-c1: ((0, 1), 0)				      <
-c1 intersects c2: 0.00000000		      |	c1 intersects c2: 2.39254987
+Grading at 12/18/2020:05:17:46.282919
+For commit ID bbbcee7cd12b49c1326c88ae0d48230010168960
+c1 intersects c2: 1.57079633		      |	c1 intersects c2: 0.57079633
+c1 intersects c2: 2.40306644		      |	c1 intersects c2: 2.39254987
 c1 intersects c2: 1.60067025		      |	c1 intersects c2: 0.16155660
 Your file did not match the expected output
 
