@@ -1,15 +1,30 @@
-#You will want this import for Step 4
+# You will want this import for Step 4
 from operator import itemgetter
 
 def countWords(counts,line):
     # You should write this function in Step 1,
-    # and improve it in Step 2
+
+    # Remove characters and turn to lowercase
+    line = line.lower()
+    
+    temp_list = line.split()
+    list = [i.strip('-?.!,[]—:;"\'') for i in temp_list]
+
+    for word in list:
+        if word in counts:
+            counts[word] = counts[word] + 1
+            pass
+        else:
+            counts[word] = 1
+            pass
     return counts
 
 def printResults(counts):
     # You will replace this code in Step 3 and 4
-    print(counts)
-    pass
+    newlist = [(str(x) + " : " + str(y)) for x, y in counts.items()]
+    newlist.sort()
+    print(newlist)
+    
 
 
 # You do not need to modify this function.
@@ -23,3 +38,12 @@ def countFile(fname):
         pass
     printResults(counts)
     pass
+
+
+def main():
+    countFile("test.txt")
+
+if __name__=="__main__":
+    main()
+    
+
